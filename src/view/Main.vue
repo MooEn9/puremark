@@ -1,12 +1,14 @@
 <template>
     <div class="main">
-
+        <title-bar></title-bar>
     </div>
 </template>
 
 <script>
+    import TitleBar from "../components/TitleBar";
     export default {
-        name: "Main"
+        name: "Main",
+        components: {TitleBar}
     }
 </script>
 
